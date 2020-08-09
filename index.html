@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap" rel="stylesheet">
+
+    <!-- estilo do carrossel de serviços-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.3.15/slick.css">
+    <link rel="icon" href="images/fiv-icon.jpg">
+    <title>Página Inicial - Teste W3midia</title>
+    <meta name="description" content="A W3midia é uma agência de internet especializada em sites, comércio eletrônico (lojas virtuais), peça um orçamento, sites personalizados, sites wordpress sp, sites modernos,  intranet, gerenciamento de redes sociais.">
+  </head>
+  <body>
+   <header>
+    <div class="top-bar py-2">
+        <div class="container">
+            <div class="row flex-column flex-sm-row justify-content-start align-items-center">
+      
+                    <div class="col-auto">
+                        <div class="box-top  box-tel-top">
+                           <img src="images/phone.svg" class="icon-top-bar" alt="Icone Telefone"> <a href="" title="Numero de telefone"> Xxxxxxxx</a>
+                        </div>
+                       
+                    </div>
+    
+                    <div class="col-auto">
+                        <div class="box-top  box-whats-top">
+                            <img src="images/whatsapp.svg" class="icon-top-bar" alt="Icone Whatsapp"><a href="" title="Numero de Whatsapp"> Xxxxxxxx</a>
+                        </div>
+                   
+                    </div>
+    
+                    <div class="col-auto">
+                        <div class="box-top  box-location-top">
+                            <img src="images/pin.svg" class="icon-top-bar" alt="Icone Localização"><a href="" title="Link para endereço"> Xxxxxxxx Xxxxxxx Xxx, XXXX • São Jose do Rio Preto - SP</a>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="box-top  box-time-top">
+                            <img src="images/clock.svg" class="icon-top-bar" alt="Icone Relogio"><span> Segunda a Sexta das 8h ás 18:h</span>
+                        </div>
+                    </div>
+    
+                    <div class="col-auto" style="margin-left: 5rem; ">
+                        <div class="box-top face">
+                           <a href="#"> <img src="images/facebook.svg" class="icon-top-bar" alt="Icone Facebook"></a> 
+                        </div>
+                    </div>
+               
+            </div>
+        </div>
+       </div>
+
+       <!-- navbar-->
+       <div class="nav-section">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo teste"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item d-inline-flex">
+                      <img src="images/home-page.svg" class="mr-5 icon-top-bar" alt="Icone Home"><a class="nav-link" href="#empresa">Empresa </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#localizacao">Localização</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                      </li>
+                     
+                   
+                  </ul>
+                </div>
+              </nav>
+           </div>
+       </div>
+
+
+      
+   </header>
+
+    <!-- Slider-->
+   <div class="banner">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 banner-desk" src="images/banner-min.jpg" alt="banner Desktop">
+            <img src="images/banner-mobile.jpg" class="banner-mobile w-100" alt="Banner Mobile">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="container">
+              <div class="row">
+                <div class="offset-2 col-lg-9 row-caption">
+                  <button class="btn btn-banner"> XXXXXXXXXX </button>
+                  <h1 class="mt-3"> Lorem Ipsum Dolor </h1>
+                  <p> Sit Amet consecteur adisplicing </p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+       
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+   </div>
+
+   <div class="info-section">
+       <div class="container">
+            <div class="row py-5">
+                <div class="col-lg-4 info">
+                  <div class="info-block">
+                    <img src="images/fundo-min.jpg" alt="Informações Icone">    
+                    <img src="images/phone.svg" class="img-fluid logo-in-info" alt="Logo Home">               
+                    <div class="text-info-block">
+                      <p class="title-info"> Telefones </p>
+                      <p>XX XXXX-XXXX</p>
+                      <p>XX XXXXX-XXXX</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 info">
+                  <div class="info-block">
+                    <img src="images/fundo-min.jpg" alt="Informações Icone">    
+                    <img src="images/home-page.svg" class="img-fluid logo-in-info" alt="Logo Home">               
+                    <div class="text-info-block">
+                      <p class="title-info"> Endereço </p>
+                      <p>Xxxxxx Xxxx Xxxxx, xxxx</p>
+                      <p>São Jose do Rio Preto - SP</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 info">
+                  <div class="info-block">
+                    <img src="images/fundo-min.jpg" alt="Informações Icone">    
+                    <img src="images/clock.svg" class="img-fluid logo-in-info" alt="Logo Home">               
+                    <div class="text-info-block">
+                      <p class="title-info"> Horário de Atendimento </p>
+                      <p>Segunda a Sexta</p>
+                      <p>Das 8h às 18h</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+       </div>
+   </div>
+
+    <div class="about-section" id="empresa">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="images/about-img-min.jpg" class="img-fluid w-100" alt="Imagem Bloco Sobre">
+                </div>
+
+                <div class="col-lg-6 mt-5">
+                    <span class="small"> Empresa</span>
+                    <h1 class="title"> W3 Mídia</h1>
+                    <a class="border--after color-link" href="www.w3midia.com.br/quem-somos" target="_blank"> www.w3midia.com.br/quem-somos </a>
+                    <p class="p-about mt-5"> Há 16 anos no mercado, a W3Mídia orgulha-se dos clientes que conquistou.
+                        Acreditamos que o atendimento pontual e a seriedade com que tratamos o
+                        desenvolvimento de cada projeto são o nosso diferencial. </p>
+                        
+                        <p>criteriosa escolha de nossos colaboradores e a reciclagem de conhecimentos faz com que os trabalhos sejam sempre desenvolvidos com as mais novas tecnologias por 
+                        profissionais especializados nas áreas de análise, programação cliente/servidor e internet, comunicação, design e estrutura-administração de banco de dados.
+                        </p> 
+
+                        <p>
+                        É importante estudar as necessidades e o mercado, planejar, propor ideias e 
+                        estratégias para que nosso cliente possa usar a internet a favor de seu 
+                        negócio e aplicarmos todas essas ações periodicamente, visando retorno efetivo.</p>
+                        <p>
+                        Agência de marketing digital, marketing de conteúdo, sites, lojas virtuais que atende São José do Rio Preto e região. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="carousel-products py-5" id="servicos"> 
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+            <span class="small"> Serviços</span>
+            <h1 class="title border--after--center"> Serviços</h1>
+
+          <div class="slider py-5">
+
+              <div class="slick-slider">
+                <img src="images/carrousel_1.jpg" class="img-fluid" />
+                  <div class="info mt-3 text-left">
+                      <img src="images/plus.svg" class="img-fluid icon-plus" alt="Open Collapse" data-toggle="collapse" data-target="#collapse_1">
+                      <p class="title-servi"> Lorem Ipsum Lorem Ipsum</p>
+                      <p class="price-servi">Proin gravida nibh vel velit auctor aliquet. 
+                        Aenean sollicitudin, lorem quis bibendum auctor, 
+                        nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                  </div>
+                  <div id="collapse_1" class="collapse">
+                    <div class="text-collapse">
+                      <h1>Descritivo dos Serviços</h1>
+                      <p> This is Photoshop's version  of Lorem Ipsum.l velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, 
+                        nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                         Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat
+                          auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                          Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit.
+                           Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, 
+                           velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+                    </div>
+
+                    <img class="img-fluid icon-min" alt="Fechar Icone" src="images/close.svg" data-toggle="collapse" data-target="#collapse_1"/>
+                  </div>
+                </div>
+
+
+                <div class="slick-slider">
+                  <img src="images/carrousel_2.jpg" class="img-fluid" />
+                    <div class="info mt-3 text-left">
+                        <img src="images/plus.svg" class="img-fluid icon-plus" alt="Open Collapse" data-toggle="collapse" data-target="#collapse_2">
+                        <p class="title-servi"> Lorem Ipsum Lorem Ipsum</p>
+                        <p class="price-servi">Proin gravida nibh vel velit auctor aliquet. 
+                          Aenean sollicitudin, lorem quis bibendum auctor, 
+                          nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    </div>
+                    <div id="collapse_2" class="collapse">
+                      <div class="text-collapse">
+                        <h1>Descritivo dos Serviços</h1>
+                        <p> This is Photoshop's version  of Lorem Ipsum.l velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, 
+                          nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                           Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat
+                            auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                            Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit.
+                             Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, 
+                             velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+                      </div>
+  
+                      <img class="img-fluid icon-min" alt="Fechar Icone" src="images/close.svg" data-toggle="collapse" data-target="#collapse_2"/>
+                    </div>
+                  </div>
+
+
+
+                  <div class="slick-slider">
+                    <img src="images/carrousel_2.jpg" class="img-fluid" />
+                      <div class="info mt-3 text-left">
+                          <img src="images/plus.svg" class="img-fluid icon-plus" alt="Open Collapse" data-toggle="collapse" data-target="#collapse_3">
+                          <p class="title-servi"> Lorem Ipsum Lorem Ipsum</p>
+                          <p class="price-servi">Proin gravida nibh vel velit auctor aliquet. 
+                            Aenean sollicitudin, lorem quis bibendum auctor, 
+                            nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                      </div>
+                      <div id="collapse_3" class="collapse">
+                        <div class="text-collapse">
+                          <h1>Descritivo dos Serviços</h1>
+                          <p> This is Photoshop's version  of Lorem Ipsum.l velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, 
+                            nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                             Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat
+                              auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                              Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit.
+                               Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, 
+                               velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+                        </div>
+    
+                        <img class="img-fluid icon-min" alt="Fechar Icone" src="images/close.svg" data-toggle="collapse" data-target="#collapse_3"/>
+                      </div>
+                    </div>
+
+
+            
+
+                <img src="images/2.png" class="slick-prev">
+                <img src="images/1.png" class="slick-next"> 
+            </div>
+
+
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+    <div class="map" id="localizacao">
+       
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14918.485728619078!2d-49.3866043!3d-20.8065979!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5eb644c3f7b0479f!2sW3Midia%20-%20Comunica%C3%A7%C3%A3o%20na%20Internet!5e0!3m2!1spt-BR!2sbr!4v1596760790577!5m2!1spt-BR!2sbr" 
+     width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      
+    </div>
+
+    <div class="form-section pt-5" id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <span class="small"> Entre em contato</span>
+                    <h1 class="title border--after"> Fale Conosco</h1>
+
+                    <form>
+                        <div class="row">
+                          <div class="col">
+                            <input type="text" class="form-control" placeholder="Nome">
+                          </div>
+                          <div class="col">
+                            <input type="text" class="form-control" placeholder="E-mail">
+                          </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="Telefone">
+                            </div>
+                            <div class="col">
+                              
+                                <div class="input-group">
+                                
+                                    <select class="custom-select">
+                                      <option selected> Como ficou sabendo? </option>
+                                      <option value="1"> Facebook</option>
+                                      <option value="2"> Google</option>
+                                      <option value="3"> Linkedin</option>
+                                    </select>
+                                  </div>
+                            </div>
+                          </div>
+
+                          <div class="row mt-3">
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="Endereço" required>
+                            </div>
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="Cidade" required>
+                            </div>
+                          </div>
+
+                          <div class="form-group mt-3">
+                            <textarea class="form-control" rows="5" placeholder="Mensagem" required></textarea>
+                          </div>
+
+                          <button class="submit-contact btn mb-4" type="submit"> Enviar Contato</button>
+                      </form>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/contatct-card.JPG" alt="Card image cap">
+                    <div class="card-body">
+                      <h1 class="title border--after card-title"> Localização</h1>
+                      <a href="https://www.google.com/maps?ll=-20.806598,-49.386604&z=14&t=m&hl=pt-BR&gl=BR&mapclient=embed&cid=6824717893791401887" target="_blank"><span class="search-icon"><img src="images/search.svg" alt="Icone Localização" class="img-fluid icon-top-bar"></a></span>
+                      <p> Rua Floriano Peixoto, 1084 – Sala 21 - Boa Vista
+                        São José do Rio Preto - SP</p>
+                       
+                          <p class="icons">   <img src="images/whatsapp.svg" class="icon-top-bar" alt="Icone Whatsapp"><a href="" class="mb-3" title="Numero de Whatsapp"> Xxxxxxxx</a></p>
+                       
+                          <p class="icons"> <img src="images/phone.svg" class="icon-top-bar" alt="Icone Telefone"><a href=""  title="Numero de Telefone"> Xxxxxxxx</a></p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="bg-footer mt-5">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-lg-4">
+              <a href="#"><img src="images/logo.png" class="img-fluid  logo-footer--after" alt="Logo Footer"></a>
+          </div>
+          <div class="col-lg-6" style="line-height: 24px;">
+      
+                 <div class="header-footer">
+                   <p> xx XXXXX-XXXX</p>
+                   <p> xx XXXXX-XXXX</p>
+                 </div>
+      
+                 <p style="margin: unset;"> Rua Floriano Peixoto, 1084 – Sala 21 - Boa Vista <br>
+                  São José do Rio Preto - SP</p>
+      
+                 <div class="d-inline">
+                  <img src="images/clock.svg" class="icon-top-bar" alt="Icone Relogio"><span> Segunda a Sexta das 8h ás 18:h</span>
+                 </div>
+      
+      
+                </div>
+          <div class="col-lg-2">
+            <a href="" class="link-face-footer"><img src="images/facebook-footer.svg" class="icon-top-bar" alt="Logo Facebook"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <p> W3 MÍDIA • Todos os direitos reservados</p>
+            </div>
+
+            <div class="col-lg-6">
+              <p class="f-rigth"> Criação de Sites <a href="#">W3 Mídia</a> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- SCRIPT SLICK-->
+	<script src="https://cdn.jsdelivr.net/jquery.slick/1.3.15/slick.min.js"></script>
+	<script src="js/scripts.js"></script> 
+</body>
+</html>
